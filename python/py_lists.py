@@ -53,3 +53,26 @@ inputs = [1, 2, 3, 4, 5]
 squares = map(lambda x : x**2, inputs)
 # print and put squares in new list
 print(list(squares))
+
+# conditional lists
+# all
+score1 = 89
+score2 = 75
+score3 = 101
+
+list_condition = [
+                    score1 < 90,
+                    score2 < 90,
+                    score3 < 90
+]
+
+print("Pass" if all(list_condition) else "Fail")
+
+# any
+new_condition = [
+                    score1 > 90,
+                    score2 > 90,
+                    score3 > 90
+]
+
+print("Pass" if any(new_condition) else "Fail")

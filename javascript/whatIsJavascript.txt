@@ -1,0 +1,3 @@
+What is JavaScripts?
+
+JavaScript is a client-side and server-side programming language. JavaScript can be inserted into the HTML context to make the web pages interactive and enable user engagement.

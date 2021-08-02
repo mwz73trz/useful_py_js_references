@@ -1,0 +1,7 @@
+Is JavaScript statically or dynamically typed language? What does this mean?
+JavaScript is a dynamically typed language.
+This means the type of objects is checked during run-time. In a statically typed language, the type is checked during compile-time.
+In other words, JavaScript variables are not associated with a type. This means you can change the data type with no problem.
+var num = 10;
+num = "Test";
+In a statically typed language like C++, changing an integer to a string this way is not possible.
